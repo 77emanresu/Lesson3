@@ -1,0 +1,26 @@
+@media(max-width:480px) {
+    header{font-size:14px;}
+    .content{position:absolute;
+        left:0;
+        top:12%;
+        width:100%;
+       }
+    .wsx{width:80%;}
+    h3{font-size:18px;}
+    button{width:60px;
+        font-size: 16px;
+        padding:5px;}
+}
+
+@media (max-width:1430px) and (min-width:720px){
+    .wsx{width:50%;}
+    .content{width:96%;
+    left:2%;}
+    .button{width:80%;
+        font-size:20px;}
+}
+@media (max-width:720px) and (min-width:480px){
+    .wsx{width:80%;}
+    .content{width:98%;
+        left:1%;}
+}
